@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SmartExtensions_Example' do
+  pod 'SmartExtensions', :path => '../'
+
+  target 'SmartExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
